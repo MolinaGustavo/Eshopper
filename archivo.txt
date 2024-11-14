@@ -1,0 +1,8 @@
+8, Cartera ,132,Caballero
+1, Blusa,100,Dama
+2, Lentes,380,Caballero
+3, Playera azul,250,Caballero-
+4, Blusa Ligera,100,Dama
+5, Vestido,450,Damas
+6, Playera roja,300,Caballeros
+7, Calcetines,80,Caballeros
