@@ -1,10 +1,14 @@
 <?php
-  $producto = $_GET['producto'];
-  $precio = $_GET['precio'];
-
-  $file = @fopen("carritocompras.txt", "a"); 
-  fwrite($file, "$producto,$precio".PHP_EOL);
-  fclose($file); 
+   if (isset($_GET['producto'])){
+      $producto = $_GET['producto'];
+      $precio = $_GET['precio']; 
+      $file = @fopen("carritocompras.txt", "a"); 
+      fwrite($file, "$producto,$precio".PHP_EOL);
+      fclose($file); 
+   } else {
+      $producto = ""; 
+      $precio = "";
+   } 
 ?>
 <!DOCTYPE html>
 <html lang="es">
