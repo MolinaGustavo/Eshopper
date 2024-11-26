@@ -11,7 +11,6 @@
    $pdf->SetFont('Courier','B',16);
    $pdf->Cell(285,4,'Bueno por:',0,1,'C');
    $pdf->Image('../Ticket.png',10,5,180,300);
-
     if(file_exists('../carritodecompras.txt')){
       $content = trim(file_get_contents('../carritodecompras.txt'), PHP_EOL);
       $lineas = explode(PHP_EOL, $content);
