@@ -59,8 +59,8 @@
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-								<li><a href="#"><i class="fa fa-phone"></i> +52 618 201 1727</a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i> cisnerosalejandro@gmail.com</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i> +52 618 445 8645</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> jonathanyanaly.com</a></li>
 							</ul>
 						</div>
 					</div>
@@ -81,7 +81,7 @@
 					</div>
 					<H3>SOFTWARE PUNTO DE VENTA</H3>
 					<div class="col-sm-8">
-						Por: Alejandro Cisneros
+						Por: Gustavo Molina
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
 								<li><a href="agregarproductos.php" target="_blank"><i class="fa fa-plus"></i>Agregar</a></li> 
