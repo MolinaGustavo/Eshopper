@@ -34,7 +34,7 @@
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
 								<li><a href="#"><i class="fa fa-phone"></i> +52 671 767 6346</a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i> Alejandrobriava26_15@outlook.com</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> jonathanyanaly26_15@outlook.com</a></li>
 							</ul>
 						</div>
 					</div>					
@@ -183,11 +183,12 @@
 						</tr>
 					</thead>
 					<tbody>
-											<?php 
+											<?php
+											$total = 0; 
    if(file_exists('carritodecompras.txt')){
       $content = trim(file_get_contents('carritodecompras.txt'), PHP_EOL);
       $lineas = explode(PHP_EOL, $content);
-      $total = 0;
+      
       foreach($lineas as $linea){
          list($productoE, $precioE) = explode(',', $linea);
 ?>
@@ -254,6 +255,7 @@
 					<span>
 						<label><input type="checkbox"> Paypal</label>
 					</span>
+					<a class="btn btn-primary" href="fpdf/ticket.php" target="_blank">Pagar</a>
 				</div>
 		</div>
 	</section> <!--/#cart_items-->

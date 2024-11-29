@@ -136,10 +136,11 @@
 					</thead>
 					<tbody>
 						<?php
+						  $total = 0;
 						 if(file_exists('carritodecompras.txt')){
          $content = trim(file_get_contents('carritodecompras.txt'), PHP_EOL);
          $lineas = explode(PHP_EOL, $content);
-         $total = 0;
+
          foreach($lineas as $linea){ 
             list($productoE, $precioE) = explode(',', $linea);
            //si el archivo tiene enters el programa truena
