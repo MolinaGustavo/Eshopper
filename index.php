@@ -1,7 +1,7 @@
 <?php
 session_start();
 $usuario = $_SESSION["usuario"];
-$email = $_SESSION["email"]; 
+$email = $_SESSION["email"];
 
   $BDProductos = array(0,"CERO",0,"");
  $i=0; $iProductos=1; 
@@ -64,7 +64,6 @@ $email = $_SESSION["email"];
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
 								<li><a href="#"><i class="fa fa-phone"></i> +52 618 445 8645</a></li>
-
 								<font color="green">
 									<li> Usuario: <?php echo $usuario; ?></li>
 									<li> Correo <i class="fa fa-envelope"></i>:<?php echo $email; ?></li>
